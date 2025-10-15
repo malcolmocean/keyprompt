@@ -1,0 +1,31 @@
+{
+  "name": "keyprompt",
+  "version": "1.0.0",
+  "description": "Process clipboard content through LLMs with intelligent input handling",
+  "main": "cli.js",
+  "bin": {
+    "keyprompt": "./cli.js"
+  },
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "clipboard",
+    "llm",
+    "anthropic",
+    "claude",
+    "automation",
+    "keyboard-maestro"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.32.1",
+    "@mozilla/readability": "^0.5.0",
+    "commander": "^12.1.0",
+    "jsdom": "^25.0.1",
+    "turndown": "^7.2.0"
+  }
+}
+

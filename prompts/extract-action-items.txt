@@ -1,0 +1,1 @@
+Extract all action items and tasks from [INPUT]. Format them as a bulleted list.
